@@ -13,6 +13,7 @@
 - If yes, describe at least one change and why you made it.
 
 ---
+I chose four classes: Task (a single care action with type, time, priority, and recurrence), Pet (holds pet info and a list of tasks), Owner (manages multiple pets), and Schedule (the coordinator that sorts tasks and detects conflicts for a given day). I used Python dataclasses for Task, Pet, and Owner to keep attribute definitions clean and avoid boilerplate __init__ code. Schedule is a regular class because it contains algorithmic logic rather than just data.
 
 ## 2. Scheduling Logic and Tradeoffs
 
